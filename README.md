@@ -1,74 +1,67 @@
-# Онлайн магазин за дрехи
+# Clothing Store
 
-Онлайн магазин за дрехи е уеб приложение, което предлага различни модни продукти за покупка. Потребителите могат да разглеждат, филтрират и купуват дрехи от различни категории като рокли, ризи, панталони и аксесоари. Проектът цели да предостави лесен начин за пазаруване на мода и да предложи разнообразие от продукти с високо качество на достъпни цени.
+A simple, intuitive, and cross-platform clothing store application built with React Native. Browse, shop, and manage your wardrobe on both iOS and Android devices.
 
-## Съдържание
+## Table of Contents
 
-- [Инструкции за инсталация](#инструкции-за-инсталация)
-- [Функционалности](#функционалности)
-- [Допринасяне](#допринасяне)
-- [Лиценз](#лиценз)
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Contributing](#contributing)
+4. [License](#license)
 
-## Инструкции за инсталация
+## Installation
 
-Следвайте стъпките по-долу, за да инсталирате и стартирате проекта локално.
+- Install dependencies
 
-### 1. Клонирайте репозитория
+   ```bash
+   git clone https://github.com/your-username/clothing-store.git
+   cd clothing-store
+   npm install
+   ```
 
-Клонирайте репозитория на вашето локално устройство с `git`:
+- To start the app, type:
+   ```bash
+    npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+### Get a fresh project
+
+When you're ready, run:
 
 ```bash
-git clone https://github.com/Ivaila13/DiplomenProekt.git
-2. Отидете в директорията на проекта
-След като клонирате репозитория, отидете в директорията на проекта:
-cd DiplomenProekt
+npm run reset-project
+```
 
+## Features
 
+- Browse through a wide range of clothing categories.
+- Add items to your shopping cart and wishlist.
+- Complete purchases securely with integrated payment options.
+- Allows the user to choose between a light mode and a dark mode.
 
-3. Инсталирайте зависимостите
-Инсталирайте необходимите зависимости, използвайки npm или yarn:
+![](/design/mobile-design-light.jpg)
 
-npm install
-или
-yarn install
+![](design/mobile-design-dark.jpg)
 
-4. Стартирайте проекта
-За да стартирате проекта, използвайте следната команда:
+## Contributing
 
-npm start
-или
-yarn start
+- Contributions are welcome! Follow these steps:
+    1. Fork the repository.
+    2. Create a new branch: git checkout -b feature/your-feature-name.
+    3. Commit your changes: git commit -m 'Add your feature'.
+    4. Push the branch: git push origin feature/your-feature-name.
+    5. Open a Pull Request.
 
-#Функционалности
-Приложението предлага следните ключови функционалности:
+## License
 
-Каталог с продукти: Потребителите могат да разглеждат различни категории дрехи, като рокли, ризи, панталони, обувки и аксесоари.
-Филтриране и търсене: Потребителите могат да търсят по ключови думи и да филтрират продуктите по размер, цвят, цена и марка.
-Кошница: Потребителите могат лесно да добавят продукти в кошницата си и да преминават към плащане.
-Регистрация и вход: Потребителите могат да създадат акаунт или да се влязат в съществуващ, за да следят своите поръчки и да запазват любимите си продукти.
-Плащане: Интеграция с различни платежни системи за сигурни и бързи плащания онлайн.
-Интерфейс за мобилни устройства: Приложението е адаптирано за мобилни устройства, осигурявайки лесен достъп до магазина при използване на телефони и таблети.
-Допринасяне
-Ако искате да допринесете към проекта, моля, следвайте тези стъпки:
-
-Форкнете репозитория.
-
-Създайте нов клон за вашите промени:
-
-git checkout -b нов-branch
-Направете вашите промени и ги комитнете:
-
-git commit -am 'Добавена нова функционалност'
-Изпратете пул рекуест към основния репозитори.
-
-Лиценз
-Този проект е лицензиран под MIT License. Вижте LICENSE файл за подробности.
-
-
-
-### Какво съдържа файлът:
-1. **Правилно форматирани заглавия** за всяка част от съдържанието.
-2. **Изчистено форматиране** на стъпките за инсталация и командите.
-3. **Ясни инструкции** за допринасяне и как да стартирате проекта.
-4. **Лиценз и линк към LICENSE файл**, ако имате такъв.
+- This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
 
